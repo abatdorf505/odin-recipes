@@ -1,12 +1,21 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #3c76a5;
-    color: #dfecf7
+    color: #dfecf7;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
-    text-align: center;
-    background-color:#185486
+    margin: 20px 50px;
+    background-color: #185486;
+}
+
+h2 {
+    margin: 1em 30vw;
+    padding-bottom: 1em;
+    border-bottom: 5px solid #6e98bb;
 }
 
 a {
@@ -18,7 +27,17 @@ a, .ingredients {
 }
 
 img {
-    display: block;
     margin: 0 auto;
+    display: block;
     border: 10px double #83b4db;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+    max-width: 500px;
 }
